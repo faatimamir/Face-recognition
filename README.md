@@ -70,17 +70,14 @@ You can install the required libraries using pip:
     # Print to verify
     print("name ", known_face_names)
     ```
-![uploading-file](https://github.com/user-attachments/assets/c17207d1-1793-45e7-9128-a9613126ca51)
+![loading](https://github.com/user-attachments/assets/037485b2-c79f-4d75-b4d0-47e7bf06a679)
 
 2. **Identify Faces in an Unknown Image**
 
     The script loads an unknown image, finds faces in the image, and compares them with the known faces.
 
     ```python
-    import face_recognition
-    import os
-    from PIL import Image, ImageDraw, ImageFont
-    import matplotlib.pyplot as plt
+   
 
     # Load the unknown image
     print("loading unknown image..")
